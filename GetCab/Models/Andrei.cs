@@ -9,5 +9,6 @@ namespace GetCab.Models
     {
         public string chlex = "hui";
         int kek;
+        string sooqa = null;
     }
 }
