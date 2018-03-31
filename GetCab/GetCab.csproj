@@ -153,17 +153,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\hooyaka.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\RegisterModel.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaxiDBDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TaxiDBDataSet.xsd</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -202,17 +196,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="TaxiDBDataSet.xsc">
-      <DependentUpon>TaxiDBDataSet.xsd</DependentUpon>
-    </Content>
-    <None Include="TaxiDBDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>TaxiDBDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <Content Include="TaxiDBDataSet.xss">
-      <DependentUpon>TaxiDBDataSet.xsd</DependentUpon>
-    </Content>
     <Content Include="Views\Account\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
